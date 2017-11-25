@@ -12,4 +12,3 @@ class HelloWorldTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals('Hello myName', $helloWorld->sayHello());
     }
 }
-
