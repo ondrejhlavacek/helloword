@@ -26,6 +26,5 @@ class HelloWorld
     {
         return 'Hello ' . $this->name;
     }
-
 }
 
