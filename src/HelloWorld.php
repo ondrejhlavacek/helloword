@@ -4,5 +4,4 @@ namespace PosledniSobota;
 
 class HelloWorld
 {
-
 }
