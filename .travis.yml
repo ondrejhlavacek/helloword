@@ -10,3 +10,4 @@ script:
   - docker-compose run --rm dev ./vendor/bin/phpunit tests/
 after_success:
   - docker images
+  - docker-compose run --rm xdebug vendor/bin/phpunit --coverage-clover build/logs/clover.xml

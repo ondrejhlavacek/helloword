@@ -10,3 +10,10 @@ services:
     volumes:
       - ./:/code
     command: /bin/bash
+  xdebug:
+    image: posobota/hello-world-xdebug
+    build:
+      context: .
+      dockerfile: docker/xDebug/Dockerfile
+    volumes:
+      - ./:/code
