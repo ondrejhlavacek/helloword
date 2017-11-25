@@ -1,5 +1,18 @@
 {
-  "name": "posobota/hello-world",
-  "type": "project",
-  "require": {}
+  "name": "root/code",
+  "authors": [
+    {
+      "name": "Dominik Visek",
+      "email": "visekdo@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "PosledniSobota\\": "src/",
+      "PosledniSobota\\Tests\\": "tests/"
+    }
+  }
 }
